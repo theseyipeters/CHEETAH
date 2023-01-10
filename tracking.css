@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    background-image: url(/img/bg\ map.png);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color: #F9D371;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    color: #F9D371;
+}
+.btn{
+    width: 105px;
+    background-color: #F9D371;
+    color: black;
+    border-radius: 10px;
+    transition: .4s;
+    border: none;
+}
+.btn:hover{
+    background-color: #fff;
+    
+}
+.btnn{
+    width: 105px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    transition: .4s;
+}
+.btnn:hover{
+    background-color: #F9D371;
+    color: white;
+}
+.dropdown-menu{
+    height: 150px;
+    width: 160px;
+    background-color: black;
+}
+.dropdown-item{
+    color: #fff;
+}
+.dropdown-item:hover{
+    color: #F9D371;
+    background-color: rgb(20, 20, 20);
+}.btnnn{
+    width: 95px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F9D371;
+    color: black;
+}
+
+
+
+
+.trackpane{
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(0,0,0,30%);
+    color: #FFF;
+    margin: 3.5% 10%;
+    border-radius: 30px;
+    position: absolute ;
+    padding: 70px 50px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+}
+.text h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.tracking{
+    width: 80%;
+    margin: 40px 18% ;
+}
+.tracking label{
+    color: #F9D371;
+}
+.tracking input{
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px;
+}
+.tracking input::placeholder{
+    opacity: 30%;
+}
+.tracking input:focus{
+    outline: none;
+}
+.tracking > button{
+    width: 40%;
+    margin: 0 20%;
+    height: 40px;
+}
+.tracking > button:focus{
+    outline: 2px solid white;
+}
+.tracking > button:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------footer----------*/
+
+
+
+
+#footer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.firstbar{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.firstbar h1{
+    font-size: 16px;
+    color: #F9D371;
+}
+.secondbar{
+    display: grid;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 15px;
+    display: flex;
+    color: #fff;
+}
+.logos{
+    margin-left: 100px;
+}
+.logos button{
+    width: 150px;
+}
+.lists{
+    margin-left: 150px;
+    display: flex;
+}
+.list1{
+    margin-left: 29px;
+    font-size: 16px;
+    display: grid;
+    gap: 15px;
+}
+.list2{
+    font-size: 16px;
+    display: grid;
+    gap: 15px;
+    margin-left: 190px;
+
+}
+.list3{
+    font-size: 16px;
+    display: grid;
+    gap: 15px;
+    width: auto;
+    margin-left: 260px;
+
+}
+.thirdbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#footer hr{
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+.socials{
+    display: flex;
+    gap: 20px;
+}
+.btnnn{
+    margin-left: -110px;
+    background-color: #F9D371;
+    color: black;
+    width: auto;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    transition: .5s;
+}
+.btnnn:hover{
+    color: #FFF;
+}
+.lastbar{
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 27px;
+}
+.lastbar p{
+    font-size: 16px;
+}
+.legal{
+    display: flex;
+    gap: 70px;
+}
+
